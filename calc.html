@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+   <h1>Calculadora</h1>
+</header>
+<body>
+    <section>
+        <input type="text" id="texto1" placeholder="Digite um Numero">
+        <input type="text" id="texto2" placeholder="Digite um Numero">
+        <br>
+        <div id="resultado"></div>
+        <br>
+        <button id="soma" onclick="somar()">+</button>
+        <button id="multiplicar"onclick="multiplicar()">*</button>
+        <button id="subtrair"onclick="subtrair()">-</button>
+        <button id="dividir"onclick="dividir()">/</button>
+        <div id="buttons">
+            <button id="um" onclick="um()" onclick="umm()">1</button>
+            <button id="dois" onclick="dois()">2</button>
+            <button id="tres" onclick="tres()">2</button>
+            <br>
+            <button id="um" onclick="quatro()">4</button>
+            <button id="um" onclick="cinco()">5</button>
+            <button id="um" onclick="seis()">6</button>
+            <br>
+            <button id="um" onclick="sete()">7</button>
+            <button id="um" onclick="oito()">8</button>
+            <button id="um" onclick="nove()">9</button>
+            <br>
+            <button id="um" onclick="zero()">0</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

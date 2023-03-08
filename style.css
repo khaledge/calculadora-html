@@ -1,0 +1,35 @@
+header {
+    color: rgb(255, 255, 255);
+    font: normal 18pt tahoma;
+    text-align: center;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.801);
+}
+section {
+    background: dimgray;
+    width: 320px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    margin:auto;
+    box-shadow: 5px 5px 6px;
+    padding: 20px
+}
+div {
+    color: white;
+    font: normal 18pt Arial;
+    size-adjust: 10px;
+}
+input{
+    height: 27px;
+    width: 111px;
+    color: green;
+}
+button {
+    width: 67px;
+    padding: 10px 15px;
+    color: white;
+    background: rgba(0, 0, 1, 0.300);
+}
